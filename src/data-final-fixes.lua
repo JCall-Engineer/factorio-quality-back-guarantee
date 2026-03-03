@@ -8,6 +8,6 @@ local normal_base = target_q3_legendary / (quality_multipliers[5] * module_bases
 for module_index, module_name in ipairs(module_names) do
 	local module = data.raw["module"][module_name]
 	if module then
-		module.effect.quality = { bonus = normal_base * module_bases[module_index] }
+		module.effect.quality = normal_base * module_bases[module_index]
 	end
 end
