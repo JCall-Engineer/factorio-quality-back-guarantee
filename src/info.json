@@ -1,0 +1,7 @@
+{
+	"name": "quality-control",
+	"version": "0.1.0",
+	"title": "Quality Control",
+	"author": "assimilater",
+	"dependencies": ["base", "space-age"]
+}
